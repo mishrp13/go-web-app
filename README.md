@@ -17,3 +17,14 @@ The server will start on port 8080. You can access it by navigating to `http://l
 ![Website](static/images/golang-website.png)
 
 
+
+--> Flow:
+
+1. Containerization-> Docker File
+2. Kubernetes manifests -> deployment file,services file, ingress
+3. CI -> Github Actions
+4. CD -> Continous Delivery (Argo CD)
+5. Kubernetes -> EKS
+6. Helm -> dev, Qa, Prod
+7. Ingess Controller -> LB(DNS) -> Exposed
+
