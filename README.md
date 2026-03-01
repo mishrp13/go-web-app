@@ -28,3 +28,7 @@ The server will start on port 8080. You can access it by navigating to `http://l
 6. Helm -> dev, Qa, Prod
 7. Ingess Controller -> LB(DNS) -> Exposed
 
+For runnung local:
+-> go build -o main .
+-> ./main -< Now you will see application will be running locally> 
+
