@@ -32,3 +32,12 @@ For runnung local:
 -> go build -o main .
 -> ./main -< Now you will see application will be running locally> 
 
+Contianerization:
+--> docker build -t mishrp/go-web-app:v1 .
+--> docker run -p 8081:8080 -it mishrp/go-web-app:v1
+--> docker push mishrp/go-web-app:v1 -> image pushed to dockerhub registory
+
+
+
+
+
